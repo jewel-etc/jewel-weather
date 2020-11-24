@@ -23,7 +23,7 @@ app.use(express.static(publicDirectoryPath));
 
 app.get('', (req, res) => {
     res.render('Index.hbs', {
-        title: 'Weather and Location App',
+        title: 'Weather and Location',
         name: 'Jewel'
     })
 })
